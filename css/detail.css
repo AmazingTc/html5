@@ -1,0 +1,128 @@
+
+.header{
+    width: 100%;
+    height: 80px;   
+    background-color: rgba(255,255,255,.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+.header ul li a:hover{
+    color:red;
+    transform: translateY(15px);
+}
+.header img{
+ width: 100px;
+ height: 70px;
+ border-radius: 5px;
+}
+.header img:hover{
+    transform: scale(2);
+    transition: all 1s;
+}
+.header ul {
+    white-space: nowrap;
+    display: flex;
+}
+.header ul li span{
+    color: #000;
+    font-size: 25px;
+}
+.header ul li {
+    font-family: "楷体";
+    font-size: 20px;
+    margin:50px;
+    overflow: hidden;
+}
+.header ul li a {
+    color:#000;
+}
+.content{
+    width: 80%;
+    height: 1200px;
+    margin:10px auto;
+}
+.left{
+    position: relative;
+    float: left;
+}
+.left .avatar{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    right:0;
+    top: 0;
+    border-radius: 25px;
+}
+.title img{
+    height: 500px;
+    width: 500px;
+}
+.right{
+    width: 600px;
+    float: right;
+    
+}
+.right header{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.hotTitle{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.right ul {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.right ul li{
+    width: 90px;
+    height:40px;
+    text-align: center;
+    border: 1px solid #ccc;    
+    line-height: 40px;
+    overflow: hidden;
+}
+.right ul li:hover{
+    color:red;
+    cursor: default;
+}
+.center{
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+}
+.form ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-weight: normal;
+    font-size: 16px;
+}
+.form {
+    width: 600px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.center ul li{
+    display: flex;
+    margin:0 5px;
+    flex-direction: column;
+    align-items: center;
+}
+.image{
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 230px;
+    left: 210px;
+    transform: rotate(45deg);
+}
